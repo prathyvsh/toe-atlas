@@ -1,5 +1,7 @@
 * ToE Atlas: A catalogue of Theories of Everything
 
+[[./img/toe-atlas-cover.png]]
+
 This is a list of theories of everything that I have come across in my researches. I have been partial to theories/frameworks that have a mathematical/algorithmic formalism behind it and have mostly skipped theories which attempt to explain [[https://en.wikipedia.org/wiki/42_(number)#The_Hitchhiker's_Guide_to_the_Galaxy][why 42?]], taking away this criteria is under consideration and it would allow me to add in a lot of philosophical works starting from Heraclitus/Parmenides to contemporary times. Some are not exactly theories of everything but architectonic systems that span more than two domains attempting to unify them. Whenever the ambit of reasoning seemed like it gave insights into unifying two+ disparate fields of knowledge, I have tried to include them here. I am a user interface design / software engineer by trade, so this listing is only partial and if you know of any exciting theories which I have left out, please send a PR or reach out via Twitter.
 
 Style Guide:
