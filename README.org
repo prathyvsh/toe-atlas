@@ -1,0 +1,260 @@
+* ToE Atlas: A catalogue of Theories of Everything
+
+This is a list of theories of everything that I have come across in my researches. I have been partial to theories/frameworks that have a mathematical/algorithmic formalism behind it and have mostly skipped theories which attempt to explain [[][why 42?]], taking away this criteria is under consideration and it would allow me to add in a lot of philosophical works starting from Heraclitus/Parmenides to contemporary times. Some are not exactly theories of everything but architectonic systems that span more than two domains attempting to unify them. Whenever the ambit of reasoning seemed like it gave insights into unifying two+ disparate fields of knowledge, I have tried to include them here. I am a user interface design / software engineer by trade, so this listing is only partial and if you know of any exciting theories which I have left out, please send a PR or reach out via Twitter.
+
+Style Guide:
+Try to provide a character sketch of the person who invented the theory where possible
+Link to papers, articles, and books of the corresponding theory
+When linking a paper, include title, authors, date of publishing, number of pages, and a brief description if you have skimmed/read the paper
+The schema is roughly:
+
+Core idea
+Adjacent/related idea
+Topics covered
+Key people
+Introductory papers
+Original works
+Blogposts
+Podcasts
+Videos
+Books
+
+** Index
+
+*** Renormalization
+**** Language as renormalization
+**** Deep Learning and renormalization
+**** Computation and renormalization
+
+*** Geometric Deep Learning
+
+*** Universality
+
+*** Gaussian Distribution
+*** Pareto / Zipf Distribution
+*** Tracy-Widom Distribution
+
+*** Self Organized Criticality
+
+** Topics
+
+Intelligence
+Swarm Behaviour
+Chemical Systems
+Computation
+Language
+Information
+
+** Ideas
+
+Self Organized Criticality
+Renormalization
+Emergence
+Universality
+Dissipative Systems
+Homeostasis
+Free Energy Principle
+Dynamical Systems
+Field Computation
+Tracy Widom Distribution
+Symmetry Breaking
+Phase Transition
+Scale Free Network
+Criticality
+Causal Sets
+Kolmogorov Complexity
+Ergodicity
+Critical Opalescence
+Feigenbaum criticality
+Sparse Coding
+Random Matrix Theory
+Gauge Equivariance
+Deep Learning
+Information Theory
+Autoencoder
+Universal Approximation Theorem
+Symmetry Breaking
+Percolation Theory
+Singularity
+Algorithmic Complexity Theory
+Krohn-Rhodes Decomposition
+Eigenform
+Block-Spin Renormalization
+Galois Theory
+Boltzmann Machines
+
+** Universality
+
+Universality is considered to arise in a complex system which has many components that have strong interaction/coupling with each other. Whenever a system exhibits universality, the behaviour of the system can be treated like a random matrix. The pattern of spectrum plotted from a random matrix can be seen to matches up with the observed behaviour of the system.
+
+Systems with many interacting components such as biological species, bus systems, numbers, distribution of cones in the eyes of chicken, subatomic particles, all kept producing the same pattern known as the Tracy-Wiidom distribution. The microscopic collective behaviour results in a macroscopic behaviour which is same across a wide variety of phenomena and this is studied under universality.
+
+While the central limit theorem shows that Gaussian normal distribution can appear among uncorrelated variables that does not mutually influence each other, Tracy-Widom seems to arise from variables that strongly interact with each other.
+
+*** Introductory Articles
+
+- [[https://www.quantamagazine.org/in-mysterious-pattern-math-and-nature-converge-20130205/][In Mysterious Pattern, Math and Nature Converge]]
+Natalie Wolchover (February 5, 2013)
+- [[https://www.quantamagazine.org/beyond-the-bell-curve-a-new-universal-law-20141015/][At the Far Ends of a New Universal Law]]
+Natalie Wolchover (October 15, 2014)
+
+*** History
+
+Ken Wilson
+Kadanoff
+Already implicit in van der Waals equation and Landau Theory
+
+Wigner hypothesized that all complex correlated systems will exhibit such universality
+
+*** Intermediate Expository Papers
+
+- [[https://arxiv.org/abs/cond-mat/0701193][Random Matrices, the Ulam Problem, Directed Polymergs & Growth Models, and Sequence Matching]]
+Satya N. Majumdar (2007)
+39 pages
+
+Paper that unifies the study of different fields using the Tracy-Widom distribution that describes the asymptotic probability distribution of the largest eigenvalue of a random matrix
+
+*** Survey Papers
+
+- [[https://arxiv.org/abs/math-ph/0603038][Universality for mathematical and physical systems]]
+Percy Deift (2006)
+24 pages
+
+*** Original Research
+
+- Wigner spectrum of Uranium nuclei
+
+- [[http://www-personal.umich.edu/~hlm/paircor1.pdf][The Pair Correlations of Zeroes of the Zeta function]]
+H. L. Montgomery (1972)
+13 pages
+
+- [[https://arxiv.org/abs/hep-th/9210074][Level-Spacing Distributions and the Airy Kernel]]
+Craig A. Tracy, Harold Widom (1992)
+8 pages
+
+- [[https://arxiv.org/abs/nlin/0001015][[The statistical properties of the city transport in Cuernavaca (Mexico) and random matrix ensembles]]
+Milan Krbálek, Petr Seba (2000)
+4 pages
+
+- [[https://arxiv.org/abs/1103.1919v4][Spectral Statistics of Erdős-Rényi Graphs I: Local Semicircle Law]]
+László Erdős, Antti Knowles, Horng-Tzer Yau, Jun Yin
+
+- [[https://www.gwern.net/docs/sociology/1972-may.pdf][Will a Large Complex System be Stable?]]
+Robert M. May (1972)
+3 Pages
+
+- [[https://arxiv.org/abs/math/9810105][On the Distribution of the Length of the Longest Increasing Subsequences of Random Permutations]]
+Jinho Baik, Percy Deift, Kurt Johansson (1999)
+60 Pages
+
+- [[https://arxiv.org/abs/1001.5121][Universal Fluctuations of Growing Interfaces: Evidence in Turbulent Liquid Crystals]]
+Kazumasa A. Takeuchi, Masaki Sano (2010)
+4 pages
+
+Paper on the Ulam problem of largest increasing subsequences
+
+- [[https://arxiv.org/pdf/1104.1993.pdf][An exact solution for the KPZ equation with flat initial conditions]]
+Pasquale Calabrese, and Pierre Le Doussal (2011)
+4 pages
+
+- Osteoporosis
+- Wriggling perimeter of a bacterial growth
+- Scale invariance of the network
+
+*** Videos
+
+- [[https://www.quantamagazine.org/the-universal-pattern-popping-up-in-math-physics-and-biology-20180823/][The Universal Pattern Popping Up in Math, Physics and Biology]]
+
+Related concepts: Renormalization, Disordered Hyperuniformity, Paradox of enrichment, Third order phase transition, KPZ equation
+
+*** Criticism
+*** [[https://sites.math.rutgers.edu/~zeilberg/Opinion49.html][Why Ubiquity is so Ubiquitous]]
+
+*** Paradox of Enrichment
+
+The effect that when more food is introduced for the predator in a predator-prey ecology, the predator population destabilizes.
+
+Connected with the work of Robert May
+[[Wikipedia Entry][https://en.wikipedia.org/wiki/Paradox_of_enrichment]]
+
+TODO: Need to dig further
+
+** Prime Numbers and Chemistry quasicrystal?
+
+https://www.quantamagazine.org/a-chemist-shines-light-on-a-surprising-prime-number-pattern-20180514/
+
+Birds and Frogs paper may be?
+
+*** Introductory Articles
+
+- [[https://www.quantamagazine.org/beyond-the-bell-curve-a-new-universal-law-20141015/][At the Far Ends of a New Universal Law]]
+
+** Levy Stable distributions
+
+** Zipf’s Law
+
+Distribution that is present when there are many entities clustering to form fewer number of compound entities. This distribution is present in a lot of wide varieties of distribution such as in languages, economic distribution, and nature. Zipf’s law is witnessed when the system shows criticality.
+
+*** Papers
+
+- [[https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005110][Zipfs Lawś Arises Naturally When There are Underlying, Unobserved Variables]]
+
+- [[https://www.math.uvic.ca/faculty/reed/PREpowerlaws.pdf][From gene families and genera to incomes and internet file sizes: Why power laws are so common in nature]]
+William J. Reed, Barry D. Hughes
+
+20 December 2002
+
+4 pages
+
+*** Videos
+
+- [[https://www.youtube.com/watch?v=fCn8zs912OE][The Zipf Mystery]]
+VSauce
+16 September 2015
+
+** Scale free networks
+
+https://www.nature.com/articles/43601
+
+https://www.nature.com/articles/35019019
+
+Highly cited Réka paper:
+
+Emergence of Scaling in Random Networks: https://barabasi.com/f/67.pdf
+
+** Bell Curve
+
+Uncorrelated variables
+
+*** Tracy Widom Distribution
+
+Turns up in systems with a mixture of weakly and strongly coupled components. The feedback loops of mutual effects leads to an asymmetric distribution which is skewed more on the left side than the right. This distribution can also be interpreted operationally as one that represents a phase transition from a weakly coupled state of the system to a strongly coupled one.
+
+** Pareto Distribution
+
+** Pareto Frontier
+
+- [[https://www.semanticscholar.org/paper/Some-effects-of-intermittent-silence.-Miller/2c7c1199891b1c93396521415eaa2ef905c828eb][Some effects of intermittent silence]]
+
+On the presence of Zipf's law in the presence of intermittent silence
+
+Principle of Least Effort book
+
+Zipf law is not exhibited in random samples: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009411
+https://onlinelibrary.wiley.com/doi/10.1002/asi.21033
+
+Related ideas: Preferential attachment, fat tailed distribution, 
+
+Network Science book
+And what is the other book in which the idea was introduced?
+Linked book
+
+** Criticism
+Achilles heel of internet:
+https://www.pnas.org/content/102/41/14497.short
+
+- [[https://www.quantamagazine.org/scant-evidence-of-power-laws-found-in-real-world-networks-20180215/][Scant Evidence of Power Laws Found in Real-World Networks]]
+
+Erica Klarreich (February 15, 2018)
+
+Reply from Barabási: https://www.barabasilab.com/post/love-is-all-you-need
