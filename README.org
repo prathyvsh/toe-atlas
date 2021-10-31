@@ -40,57 +40,57 @@ Books
 
 ** Topics
 
-- Intelligence
-- Swarm Behaviour
+- Algorithmic Complexity Theory
 - Chemical Systems
-- Computation
-- Language
-- Information Theory
-- Game Theory
-- Quantum Physics
+- Dynamical Systems
 - Complex Systems
+- Computation
+- Information Theory
+- Intelligence
+- Game Theory
+- Language
+- Quantum Physics
+- Swarm Behaviour
 - Thermodynamics
 
 ** Ideas
 
-- Self Organized Criticality
-- Renormalization
-- Emergence
-- Universality
-- Dissipative Systems
-- Homeostasis
-- Free Energy Principle
-- Dynamical Systems
-- Field Computation
-- Tracy Widom Distribution
-- Symmetry Breaking
-- Phase Transition
-- Scale Free Network
-- Criticality
-- Causal Sets
-- Kolmogorov Complexity
-- Ergodicity
-- Critical Opalescence
-- Feigenbaum criticality
-- Sparse Coding
-- Random Matrix Theory
-- Gauge Equivariance
-- Deep Learning
 - Autoencoder
-- Universal Approximation Theorem
-- Symmetry Breaking
-- Percolation Theory
-- Garden of Eden
-- Cellular Automata
-- Petri Nets
-- Singularity
-- Algorithmic Complexity Theory
-- Krohn-Rhodes Decomposition
-- Eigenform
-- Multiple Realizability
 - Block-Spin Renormalization
-- Galois Theory
 - Boltzmann Machines
+- Causal Sets
+- Cellular Automata
+- Critical Opalescence
+- Criticality
+- Deep Learning
+- Dissipative Systems
+- Dynamical Scaling
+- Eigenform
+- Emergence
+- Ergodicity
+- Feigenbaum criticality
+- Field Computation
+- Free Energy Principle
+- Gauge Equivariance
+- Garden of Eden
+- Galois Theory
+- Homeostasis
+- Kolmogorov Complexity
+- Krohn-Rhodes Decomposition
+- Multiple Realizability
+- Petri Nets
+- Phase Transition
+- Percolation Theory
+- Random Matrix Theory
+- Renormalization
+- Scale Free Network
+- Self Organized Criticality
+- Singularity
+- Sparse Coding
+- Symmetry Breaking
+- Tracy Widom Distribution
+- Universal Approximation Theorem
+- Universality
 
 ** Universality
 
@@ -226,6 +226,15 @@ William J. Reed, Barry D. Hughes
 
 4 pages
 
+*** Original Works
+
+- [[https://arxiv.org/pdf/1602.05530.pdf][Extreme robustness of scaling in sample space reducing processes explain Zipf’s law in diffusion on directed networks]]
+Bernat Corominas-Murtra, Rudolf Hanel, Stefan Thurner
+11 October 2018
+
+11 pages
+Paper attempting to explain how Zipf law arises from sample space reducing processes.
+
 *** Videos
 
 - [[https://www.youtube.com/watch?v=fCn8zs912OE][The Zipf Mystery]]
@@ -281,6 +290,12 @@ Reply from Barabási: https://www.barabasilab.com/post/love-is-all-you-need
 
 * Emergence
 
+Emergence occurs in complex systems. Complex systems have interactions such as feedback loops across the elements in the system which creates many phenomena which doesn’t allow to reduce/partition the structure/operation of the components into subcomponents. For this reason, emergence is commonly pitted against the philosophy of reductionism. The web of interactions between the components generate many properties such as robustness of the system against perturbations of various factors which could cause collapse of the ecosystem.
+
+One of the key ideas when working complex systems is identifying the signficant properties of the system, which itself might turn out to be a dynamic set of properites of the system as seen in this essay by Yaneer Bar-Yam: https://mystudentvoices.com/why-complexity-is-different-ecd498e0eccb
+
+TODO: Figure out the relation between Galois Theory, Closures, Renormalization and Emergence.
+
 ** Papers
 
 *** [[https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.630.5911&rep=rep1&type=pdf][Constructive Emergence: A computer scientist looks at philosophy]]
@@ -308,5 +323,11 @@ TODO: Wonder how this conceptual/computational dichotomy between philosophy and 
 Don Howard
 31 pages
 2007
+
+Information Theory, Predictability, and the emergence of complex life: https://arxiv.org/abs/1701.02389
+The evolution of information in the major transitions: http://plantsys.elte.hu/oktatas/EvolbiolMSc/Jablonka_2006_JTB.pdf
+Eva Jablonka, Marion J. Lamb
+19 October 2005
+11 pages
 
 Cited in: Constructive Emergence: A computer scientist looks at philosophy
