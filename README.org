@@ -50,7 +50,6 @@ Books
 - Quantum Physics
 - Complex Systems
 - Thermodynamics
-- Information
 
 ** Ideas
 
@@ -88,6 +87,7 @@ Books
 - Algorithmic Complexity Theory
 - Krohn-Rhodes Decomposition
 - Eigenform
+- Multiple Realizability
 - Block-Spin Renormalization
 - Galois Theory
 - Boltzmann Machines
@@ -278,3 +278,35 @@ https://www.pnas.org/content/102/41/14497.short
 Erica Klarreich (February 15, 2018)
 
 Reply from Barabási: https://www.barabasilab.com/post/love-is-all-you-need
+
+* Emergence
+
+** Papers
+
+*** [[https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.630.5911&rep=rep1&type=pdf][Constructive Emergence: A computer scientist looks at philosophy]]
+Russ Abbott
+2008
+2 pages
+
+This is an interesting paper where Abbott wonders why philosophers find emergence mysterious while computer scientists find it common place. He says almost all the activity in computer science when building abstractions is generating emergence effects. He presents a dictionary of terms in this essay where he draws duality between terms used in computer science and philosophy:
+
+| Computer Science                     | Philosophy    |
++======================================+===============+
+| Abstraction                          | Emergence     |
+| Implementation                       | Reduction     |
+| Specification-Implementation         | Autonomy      |
+| Type                                 | Kind          |
+| Execution                            | Causality     |
+| Object                               | Individual    |
+| Functional Dependency                | Supervenience |
+
+Reading this paper made me think about the predicative/constructive duality as it happens in Computer science. In the former paradigm, you are required to find the conditions/constraints under which a certain phenomena occurs roughly in a top down fashion, where as in the constructive paradigm, you construct the entity bottom up. Both really lead to capture the same forms/phenomena happening in a certain domain/realm, but it enables you to think in a different mode. Perhaps such a mode difference is present between the styles of thinking prevalent in philosophy (predicative) and computer science (constructive).
+
+TODO: Wonder how this conceptual/computational dichotomy between philosophy and computer science is connected to the predicative/constructive, intension/extension, structure/operation dualities. If/when I spot the connections, I have to make them rigorous by showing examples.
+
+- [[https://www3.nd.edu/~dhoward1/Reduction%20and%20Emergence.pdf][Reduction and Emergence in the Physical Sciences: Some Lessons from the Particle Physics-Condensed Matter Physics Debate]]
+Don Howard
+31 pages
+2007
+
+Cited in: Constructive Emergence: A computer scientist looks at philosophy
