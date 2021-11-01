@@ -75,8 +75,10 @@ Books
 - Garden of Eden
 - Galois Theory
 - Homeostasis
+- Ising Model
 - Kolmogorov Complexity
 - Krohn-Rhodes Decomposition
+- Landau Theory
 - Multiple Realizability
 - Petri Nets
 - Phase Transition
@@ -94,9 +96,15 @@ Books
 
 ** Universality
 
-Universality is considered to arise in a complex system which has many components that have strong interaction/coupling with each other. Whenever a system exhibits universality, the behaviour of the system can be treated like a random matrix. The pattern of spectrum plotted from a random matrix can be seen to matches up with the observed behaviour of the system.
+Universality is considered to arise in a complex system which has many components that have strong interaction/coupling with each other. The term universality is used because the mathematical representation of certain systems at a particular resolution corresponds to the behaviour of other kinds of systems even though they have different underlying makeup. Whenever a system exhibits universality, the behaviour of the system can be treated like a random matrix. The pattern of spectrum plotted from a random matrix can be seen to matches up with the observed behaviour of the system.
 
-Systems with many interacting components such as biological species, bus systems, numbers, distribution of cones in the eyes of chicken, subatomic particles, all kept producing the same pattern known as the Tracy-Wiidom distribution. The microscopic collective behaviour results in a macroscopic behaviour which is same across a wide variety of phenomena and this is studied under universality.
+This image from Yaneer Bar-Yam’s post “Why Complexity is Different” may help elucidate this concept where the same model maps onto a wide variety of phenomena:
+
+#+CAPTION: Image illustration Universality
+[[./img/universality.png]]
+
+
+Systems with many interacting components such as biological species, bus systems, numbers, distribution of cones in the eyes of chicken, subatomic particles, all kept producing the same pattern known as the Tracy-Widom distribution. The microscopic collective behaviour results in a macroscopic behaviour which is same across a wide variety of phenomena and this is studied under universality.
 
 While the central limit theorem shows that Gaussian normal distribution can appear among uncorrelated variables that does not mutually influence each other, Tracy-Widom seems to arise from variables that strongly interact with each other.
 
@@ -106,6 +114,20 @@ While the central limit theorem shows that Gaussian normal distribution can appe
 Natalie Wolchover (February 5, 2013)
 - [[https://www.quantamagazine.org/beyond-the-bell-curve-a-new-universal-law-20141015/][At the Far Ends of a New Universal Law]]
 Natalie Wolchover (October 15, 2014)
+
+*** Intermediary Expositions
+
+- [[http://philsci-archive.pitt.edu/12044/1/Universality_Explained.pdf][Universality Explained]]
+Alexander Franklin
+April 16, 2016
+
+Paper by Alexander Franklin explaining Universality from a reductive angle. It touches on how this explanation might undermine claims made by Batterson and Morrison regarding from an emergent viewpoint and give a reductive explanation of multiple realizability.
+
+- [[https://kclpure.kcl.ac.uk/portal/files/124077441/AFranklin_PhoS_UnivRed.pdf][Universality Reduced]]
+
+Another paper by Alexander Franklin with the same thrust.
+
+TODO: May be add these two papers to the section Emergence vs. Reduction?
 
 *** History
 
@@ -292,7 +314,11 @@ Reply from Barabási: https://www.barabasilab.com/post/love-is-all-you-need
 
 Emergence occurs in complex systems. Complex systems have interactions such as feedback loops across the elements in the system which creates many phenomena which doesn’t allow to reduce/partition the structure/operation of the components into subcomponents. For this reason, emergence is commonly pitted against the philosophy of reductionism. The web of interactions between the components generate many properties such as robustness of the system against perturbations of various factors which could cause collapse of the ecosystem.
 
-One of the key ideas when working complex systems is identifying the signficant properties of the system, which itself might turn out to be a dynamic set of properites of the system as seen in this essay by Yaneer Bar-Yam: https://mystudentvoices.com/why-complexity-is-different-ecd498e0eccb
+One of the key ideas when working complex systems is identifying the signficant properties of the system, which itself might turn out to be a dynamic set of properites of the system as seen in this essay by Yaneer Bar-Yam: https://mystudentvoices.com/why-complexity-is-different-ecd498e0eccb In order to study a system successfully, we need to be able to separate them along various scales and identify the stable structures and behaviours at each scale.
+
+In a complex system there could be interactions at the large scale that affect the smaller scale and reciprocally, ones at the smaller scale that have large scale repercussions.
+
+Understanding complex systems is situated at this boundary between totally random behaviour and totally uniform behaviour. It is best described using scales.
 
 TODO: Figure out the relation between Galois Theory, Closures, Renormalization and Emergence.
 
@@ -331,3 +357,12 @@ Eva Jablonka, Marion J. Lamb
 11 pages
 
 Cited in: Constructive Emergence: A computer scientist looks at philosophy
+
+** Emergence vs. Reduction
+
+*** Papers
+
+- [[http://philsci-archive.pitt.edu/11484/][Decoupling Emergence and Reduction in Physics]]
+Karen Crowther
+2015
+35 pages
