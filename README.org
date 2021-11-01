@@ -332,7 +332,7 @@ Russ Abbott
 This is an interesting paper where Abbott wonders why philosophers find emergence mysterious while computer scientists find it common place. He says almost all the activity in computer science when building abstractions is generating emergence effects. He presents a dictionary of terms in this essay where he draws duality between terms used in computer science and philosophy:
 
 | Computer Science                     | Philosophy    |
-+--------------------------------------+---------------+
+|--------------------------------------+---------------|
 | Abstraction                          | Emergence     |
 | Implementation                       | Reduction     |
 | Specification-Implementation         | Autonomy      |
