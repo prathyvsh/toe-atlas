@@ -364,5 +364,361 @@ Cited in: Constructive Emergence: A computer scientist looks at philosophy
 
 - [[http://philsci-archive.pitt.edu/11484/][Decoupling Emergence and Reduction in Physics]]
 Karen Crowther
+
 2015
+
 35 pages
+
+* Self Organized Criticality
+
+The model says that complex systems teeters on the border of order and disorder. This term has been famously called the "edge of chaos". This idea has been extended to cover earthquakes, financial markets, traffic jams, biological evolution, the distribution of galaxies in the universe, and human brain.
+
+Related ideas in this space:
+
+Biological Systems Poised at Criticality
+
+** Critical Brain Hypothesis
+
+Balancing exactly at the critical point might be unstable which lead researchers to formulate theories of subcritical/quasicritical brain.
+
+*** Criticism
+
+- [[https://arxiv.org/abs/1503.08033][Power-law statistics and universal scaling in the absence of criticality]]
+
+** Key people
+
+Per Bak (December 8, 1948 — October 16, 2002)
+
+** Key Concepts
+
+Abelian Sandpile Model
+Add Animation From Here: https://handwiki.org/wiki/Abelian_sandpile_model
+
+Phase Transition
+Explosive Percolation
+http://www.uvm.edu/pdodds/files/papers/others/2009/achlioptas2009a.pdf
+[[https://www.quantamagazine.org/how-complex-networks-explode-with-growth-20150714/][The New Laws of Explosive Networks]]
+
+
+** Introductory Articles
+
+- [[https://www.quantamagazine.org/toward-a-theory-of-self-organized-criticality-in-the-brain-20140403/][A Fundamental Theory to Model the Mind]]
+Jennifer Oullette (April 3, 2014)
+
+Details the approach of Bak and the progress that has been made on empirically verifying the model in neuroscience in the work of Dante Chialvo, Dietmar Plenz, John Beggs, and Raissa D’Souza.
+
+** Papers
+
+[[http://www.chialvo.net/Curso/UBACurso/DIA3/Papers/SOC1.pdf][Self-organized Criticality: An Explanation of 1/f Noise (1987)]]
+4 pages
+Per Bak, Chao Tang, and Kurt Wiesenfeld
+
+[[https://www.pnas.org/content/pnas/92/15/6689.full.pdf][Complexity, Contingency, and Criticality (1994)]]
+Per Bak, Maya Paczuski
+
+** Survey papers
+
+- [[https://arxiv.org/pdf/1712.04499.pdf][Colloquium: Criticality and Dynamical Scaling in Living Systems]]
+Miguel A. Muñoz
+16 May 2008
+34 pages
+
+Paper surveying the state of the art of theoretical conjecture and empirical validation of criticality
+
+** In-depth papers
+
+- [[https://arxiv.org/pdf/cond-mat/0011011.pdf][Critical Phenomena: An Introduction from a modern perspective]]
+Somendra M. Bhattacharjee
+February 1, 2008
+26 pages
+
+** Books
+
+How Nature Works
+
+** Criticism
+
+[[https://www.frontiersin.org/articles/10.3389/fphys.2012.00163/full][Being critical of criticality in the Brain]]
+
+** Renormalization
+
+A mathematical technique that was developed to address the phase transition problem (TODO: What is it?). It allows for travelling? through scales and understanding the behaviour across each of these levels. It allows for segmenting the relevant parameters for interactions at a particular scale from the irrelevant. Relevant parameters increase with scale and irrelevant parameters decrease (TODO: Is this usually the case?)
+
+Language as Renormalization
+
+** Computation as Renormalization
+
+Yuri Manin paper
+
+*** Papers
+
+**** Introductory
+
+**** Originals
+
+- [[https://journals.aps.org/prb/abstract/10.1103/PhysRevB.4.3174][Renormalization Group and Critical Phenomena I: Renormalization Group and the Kadanoff Scaling Picture]]
+- [[https://journals.aps.org/prb/abstract/10.1103/PhysRevB.4.3184][Renormalization Group and Critical Phenomena II: Phase Space Cell Analysis of Critical Behaviour]]
+
+**** [[https://www.youtube.com/playlist?list=PLF0b3ThojznTzAA7bfLWh4RKzRrwNF4L0][Introduction to Renormalization by Simon DeDeo]]
+**** [[https://arxiv.org/pdf/1406.4532.pdf][Renormalization for Philosophers]]
+[[https://www.jstor.org/stable/10.1086/677887][Why Is There Universal Macrobehaviour? Renormalization Group Explanation as Noncausal Explanation]]
+[[https://www.quantamagazine.org/how-renormalization-saved-particle-physics-20200917/][How Mathematical ‘Hocus-Pocus’ Saved Particle Physics]]
+[[https://websites.pmc.ucsc.edu/~wrs/Project/2014-summer%20seminar/Renorm/Wilson-many%20scales-Sci%20Am-79.pdf][Problems in Physics with many scales of length]]
+[[https://www.journals.uchicago.edu/doi/abs/10.1086/696812?journalCode=phos][On the Renormalization Group Explanation of Universality]]
+[[http://philsci-archive.pitt.edu/14049/1/rgrealism_preprint.pdf][The Renormalization Group and the Formulation of Scientific Realism]]
+
+** Deep Learning as Renormalization
+
+Extracting relevant features in systems with varying degrees of coupling with the use of tools from statistics, physics, and computation. Parallels are drawn between how the process of renormalization picks out the significant features of a data set and how deep learning Boltzmann machines picks out features of objects to identify it from various angles.
+
+Relevant concepts: Autoencoder, Boltzmann Machine, Sparse Coding, Universal Approximation Theorem, Information Bottleneck
+
+Boltzmann Machine
+The name borrows from Austrian scientist Boltzmann whose work on statistical mechanics of gas molecules enabled him to discover the gas equation [link]. The way these deep learning machines converge is essentially the same equation (Verify/Corroborate with link/screenshot).
+
+The idea in renormalization whereby information is reduced to its essence where the correlation between elements is reduced to a minimum is shown to be equivalent to what deep learning does with artificial neurons.
+
+*** Introductory Articles
+
+**** [[https://www.quantamagazine.org/deep-learning-relies-on-renormalization-physicists-find-20141204/][A Common Logic to Seeing Cats and Cosmos]]
+Natalie Wolchover (December 4, 2014)
+
+
+**** [[https://distill.pub/2018/building-blocks/][The Building Blocks of Interpretability]]
+
+#+BEGIN_HTML
+
+<img src="./img/interpretability.jpg" alt="Image of features detected from the bird image from distill.pub article The Building Blocks of Interpretability" />
+
+#+END_HTML
+
+An information visualization dense article that describes how features are detected by neural nets.
+
+**** [[https://www.quantamagazine.org/as-machines-get-smarter-evidence-they-learn-like-us-20130723][As Machines Get Smarter, Evidence They Learn Like Us]]
+Natalie Wolchover (July 23, 2013)
+
+Describes the work of Geoffrey Hinton and Terry Sejnowski and how that lead to David Schwab while watching a lecture to draw an analogy with renormalization. Schwab with his collaborator Pankaj Mehta, worked out the details in a paper that made this intuition rigorous.
+
+*** Papers
+
+**** [[http://www.cs.toronto.edu/~fritz/absps/cogscibm.pdf][A Learning Algorithm for Boltzmann Machines]]
+David H. Ackley, Geoffrey E. Hinton, Terrence J. Sejnowski
+
+**** [[https://arxiv.org/abs/1410.3831][An exact mapping between the Variational Renormalization Group and Deep Learning]]
+Pankaj Mehta, David Schwab
+
+**** [[https://arxiv.org/abs/1503.02406][Deep Learning and the Information Bottleneck Principle]]
+Naftali Tishby, Noga Zaslavsky
+
+*** Videos
+
+**** [[https://www.youtube.com/watch?v=bLqJHjXihK8][Information Theory of Deep Learning]]
+Naftali Tishby (2017)
+
+*** Criticism
+
+*** Information Bottleneck
+
+**** [[https://arxiv.org/pdf/physics/0004057.pdf][The Information Bottleneck Method]]
+Naftali Tishby, Fernando C. Pereira, William Bialek
+1999
+16 pages
+
+** Emergence
+
+- [[https://www.andrew.cmu.edu/user/kk3n/found-phys-emerge.pdf][Emergence, Singularities and symmetry Breaking]] Robert Batterman
+
+- [[https://www.science.org/doi/10.1126/science.177.4047.393][More is Different]]
+
+** Geometric Foundations of Deep Learning
+
+*** Originals
+
+- [[https://arxiv.org/abs/1611.08097][Geometric deep learning: going beyond Euclidean data]]
+Michael M. Bronstein, Joan Bruna, Yann LeCun, Arthur Szlam, Pierre Vandergheynst
+2016
+
+- [[https://arxiv.org/abs/1602.07576][Group Equivariant Convolutional Networks]]
+Taco S. Cohen, Max Welling
+24 February 2016
+12 pages
+- [[https://arxiv.org/abs/1902.04615][Gauge Equivariant Convolutional Networks and the Icosahedral CNN]]
+Taco S. Cohen, Maurice Weiler, Berkay Kincanaoglu, Max Welling
+11 February 2019
+15 pages
+
+- [[https://arxiv.org/abs/1906.02481][Covariance in Physics and Convolutional Neural Networks]]
+Miranda C. N. Cheng, Vassilis Anagiannis, Maurice Weiler, Pim de Haan, Taco S. Cohen, Max Welling
+6 June 2019
+5 pages
+
+- [[https://arxiv.org/abs/2104.13478][Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges]]
+Michael M. Bronstein, Joan Bruna, Taco Cohen, Petar Veličković
+
+*** Galois Theory
+
+Connection between Galois Theory in number theory, complex analysis, and quantum field theory has been noticed. In particular, the idea of renormalization and motives has been discovered by Alain Connes and Kreimer.
+
+[[https://arxiv.org/pdf/0805.2568.pdf][Ambiguity Theory: Old and New (2008)]]
+Yves André
+
+[[http://webdoc.sub.gwdg.de/ebook/serien/e/mpi_mathematik/2005/60k.pdf][Renormalization for Dummies]]
+Matilde Marcoli
+
+[[https://arxiv.org/pdf/math/0404128][From Physics to Number Theory via Noncommutative Geometry, Part I: Quantum Statistical Mechanics of Q-Lattices]]
+Alain Connes, Mattilde Marcoli (6 April 2004)
+
+[[https://arxiv.org/pdf/hep-th/0411114][From Physics to Number Theory via Noncommutative Geometry, Part II: Renormalization, the Riemann-Hilbert correspondence and motivic Galois Theory]]
+Alain Connes, Mattilde Marcoli (11 November 2004)
+
+Connection with Landau’s principle
+
+** Dissipative Systems
+Constructal Law
+England's Theory
+
+** Cybernetics
+Norbert Wiener
+Ross Ashby
+Foerster
+Gregory Bateson
+
+*** Books
+
+- An Introduction to Cybernetics
+
+** Free Energy / Markov Blanket Centered
+
+** Entropy Rodriguez, that other guy on Inference
+
+** Dynamical Systems Based
+Yohan Discussions
+
+** Chaos based / Ralph Abraham line of research
+
+** Field Computation / Bruce MacLennan
+
+** Stuart Kauffman / Adjacent Possible
+
+** Integrated Information Theory
+
+** Information Topology
+
+** Implicate / Explicate Order
+
+David Böhm
+
+** Memory Evolutive Systems
+
+** Category Theory Based
+
+[[https://github.com/drever/ct-consciousness/blob/main/README.md][Johannes Drever Repo]]
+
+** Person who wrote about values
+
+** Mazzola
+
+** Longo
+
+** Gromov
+
+** Zalamea: https://www.glass-bead.org/article/multilayered-sites-and-dynamic-logics-for-transits-between-art-and-mathematics/?lang=enview
+
+** Roger Penrose
+
+** Symbolic Species
+
+** Michael Schulman
+
+** Modal Homotopy Theory
+
+** ZX-Calculus
+
+** Topos Theoretic Bridge
+Olivia Caramello: https://www.glass-bead.org/article/the-theory-of-topos-theoretic-bridges-a-conceptual-introduction/?lang=enview
+
+** Quiver Geometry
+
+** Neural Manifolds
+
+3Blue1Brown videos
+VCubingX videos
+ArtOfLearning videos
+
+** Krohn-Rhodes
+
+** Calculus of Ideas / Pattern Theory
+
+** Wolfram / McCullough
+
+** Matrix Logic
+
+** Phenomenology
+
+** Strange Loop / Tangled Hierarchy
+Gödel / Hofstadter
+
+** Mathematical Ensemble Theory / Braid Article
+
+** Rashyevsky/Rosen line of thought: https://link.springer.com/article/10.1007%2FBF02478215
+
+** Axiomatic biology of Woodger
+
+** Transcendental Logic: That Kantian grounding paper mentioned by Peter Wolfendale
+
+** Formalization of Hegel’s Logic, link to Lawvere
+
+** Janus Point of Time / Shape Dynamics
+
+** Aaron Sloman
+
+** Grossberg
+
+** String Theory
+
+** E8
+
+** Shape Dynamics
+
+** Causal Sets
+
+** Quantum Loop Theory
+
+** Ben Goertzel
+
+** Constructor Theory
+
+** Gisin's work
+
+** Christopher Isham's work
+- What is a Thing? Bringing in the work of Heidegger
+
+** Jurgen Jöst's work
+- https://link.springer.com/article/10.1007%2Fs12064-021-00351-9
+- https://www.frontiersin.org/articles/10.3389/fams.2021.641239/full
+
+**  Quantum Logic - Piron who else?
+
+** Collective Electrodynamics
+Carver Mead
+
+** Promise Theory
+Mark Burgess
+
+** Intelligence without Reason
+
+** Katzchaneev
+Intuitionism: We don't look at the world and ask what are it's laws, we look at the way we look at the world and ask what are the laws by which we abstract.
+In this idealistic sense, the work of Katzchaneev might be an interesting piece of mathematics.
+
+** Langland’s Program
+Monstrous Moonshine: https://www.quantamagazine.org/mathematicians-chase-moonshine-string-theory-connections-20150312/
+
+** Fontana’s work
+
+Sobering Reads
+
+Hofstadine
+Gisin's article
+https://nautil.us/issue/29/scaling/the-trouble-with-theories-of-everything
+Borges: The Writing of the God
