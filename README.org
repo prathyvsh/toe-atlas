@@ -68,6 +68,7 @@ Books
 - Eigenform
 - Emergence
 - Ergodicity
+- Eden Growth Model
 - Feigenbaum criticality
 - Field Computation
 - Free Energy Principle
@@ -76,6 +77,7 @@ Books
 - Galois Theory
 - Homeostasis
 - Ising Model
+- Kardar—Parisi—Zhang Equation (KPZ Equation)
 - Kolmogorov Complexity
 - Krohn-Rhodes Decomposition
 - Landau Theory
@@ -106,7 +108,12 @@ This image from Yaneer Bar-Yam’s post “Why Complexity is Different” may he
 
 Systems with many interacting components such as biological species, bus systems, numbers, distribution of cones in the eyes of chicken, subatomic particles, all kept producing the same pattern known as the Tracy-Widom distribution. The microscopic collective behaviour results in a macroscopic behaviour which is same across a wide variety of phenomena and this is studied under universality.
 
-While the central limit theorem shows that Gaussian normal distribution can appear among uncorrelated variables that does not mutually influence each other, Tracy-Widom seems to arise from variables that strongly interact with each other.
+While the central limit theorem shows that Gaussian normal distribution can appear among uncorrelated variables that does not mutually influence each other, Tracy-Widom seems to arise from variables that strongly interact with each other. In such systems that display universality, power laws represent the underlying distribution of interactions. The curve of such a distribution is said to be scale-invariant because they display the fractal like nature whereby a part of the curve is a mirror image of the whole. This GIF of the Koch Curve is a nice illustration of the phenomena. As you zoom into a part of the fractal, the same part reccurs.
+
+#+CAPTION: Scale Invariance of the Koch Curve
+[[koch-scale-invariance.gif]]
+
+An advantage of studying universality phenomena is that you get to use the same machinery you use to study one model in an entirely different context. Such contextual transfer of ideas from one domain to another is a central theme running throughout this repo.
 
 *** Introductory Articles
 
@@ -136,6 +143,8 @@ Kadanoff
 Already implicit in van der Waals equation and Landau Theory
 
 Wigner hypothesized that all complex correlated systems will exhibit such universality
+
+An interesting thread is how the Eden model of bacterial growth was studied by Mehran Kardar, Giorgio Parisi, and Yi-Cheng Zhang. This model known as the KPZ equation was found to accurately describe how irregular fluctations of the growth of bacteria population. This KPZ equation is conjectured to be the field theory of many surface growth models such as the Eden model, ballistic deposition, and SOS model. The SOS model case has been proved in the Stochastic Burgers paper.
 
 *** Intermediate Expository Papers
 
@@ -201,7 +210,31 @@ Joost H. Weijs, Raphaël Jeanneret, Rémi Dreyfus, Denis Bartolo
 17 April 2015
 5 pages
 
+**** [[http://digitalassets.lib.berkeley.edu/math/ucb/text/math_s4_v4_article-15.pdf][A Two-Dimensional Growth Process]]
+
+Murray Eden
+
+1961
+
+17 pages
+
+Paper where Eden Growth Model was proposed.
+
+**** [[http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.4105][Stochastic Burgers and KPZ equations from particle systems]]
+
+Lorenzo Bertini, Giambattista Giacomin
+
+1997
+
+44 pages
+
+
 - Scale invariance of the network
+
+*** Books
+
+- When Things Grow Many
+- Ubiquity
 
 *** Videos
 
