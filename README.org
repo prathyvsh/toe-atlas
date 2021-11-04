@@ -111,7 +111,7 @@ Systems with many interacting components such as biological species, bus systems
 While the central limit theorem shows that Gaussian normal distribution can appear among uncorrelated variables that does not mutually influence each other, Tracy-Widom seems to arise from variables that strongly interact with each other. In such systems that display universality, power laws represent the underlying distribution of interactions. The curve of such a distribution is said to be scale-invariant because they display the fractal like nature whereby a part of the curve is a mirror image of the whole. This GIF of the Koch Curve is a nice illustration of the phenomena. As you zoom into a part of the fractal, the same part reccurs.
 
 #+CAPTION: Scale Invariance of the Koch Curve
-[[koch-scale-invariance.gif]]
+[[./img/koch-scale-invariance.gif]]
 
 An advantage of studying universality phenomena is that you get to use the same machinery you use to study one model in an entirely different context. Such contextual transfer of ideas from one domain to another is a central theme running throughout this repo.
 
