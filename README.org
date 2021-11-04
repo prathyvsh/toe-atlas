@@ -144,7 +144,7 @@ Already implicit in van der Waals equation and Landau Theory
 
 Wigner hypothesized that all complex correlated systems will exhibit such universality
 
-An interesting thread is how the Eden model of bacterial growth was studied by Mehran Kardar, Giorgio Parisi, and Yi-Cheng Zhang. This model known as the KPZ equation was found to accurately describe how irregular fluctations of the growth of bacteria population. This KPZ equation is conjectured to be the field theory of many surface growth models such as the Eden model, ballistic deposition, and SOS model. The SOS model case has been proved in the Stochastic Burgers paper.
+An interesting thread is how the [[https://github.com/prathyvsh/toe-atlas/#a-two-dimensional-growth-process][Eden model of bacterial growth]] identified by Murray Eden in 1961 was studied by Mehran Kardar, Giorgio Parisi, and Yi-Cheng Zhang in 1981. This model known as the KPZ equation was found to accurately describe how irregular fluctations of the growth of bacteria population. This KPZ equation is conjectured to be the field theory of many surface growth models such as the Eden model, ballistic deposition, and SOS model. The SOS model case has been proved in the [[https://github.com/prathyvsh/toe-atlas/#stochastic-burgers-and-kpz-equations-from-particle-systems][Stochastic Burgers]] paper.
 
 *** Intermediate Expository Papers
 
@@ -218,6 +218,8 @@ Murray Eden
 
 17 pages
 
+Referred in: [[https://github.com/prathyvsh/toe-atlas/#history][Universality/History]]
+
 Paper where Eden Growth Model was proposed.
 
 **** [[http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.4105][Stochastic Burgers and KPZ equations from particle systems]]
@@ -228,6 +230,19 @@ Lorenzo Bertini, Giambattista Giacomin
 
 44 pages
 
+Referred in: [[https://github.com/prathyvsh/toe-atlas/#history][Universality/History]]
+
+**** [[http://courses.physics.ucsd.edu/2020/Winter/physics116/KPZ%20Model.pdf][Dynamic Scaling of Growing Interfaces]]
+
+Mehran Kardar, Giorgio Parisi, Yi-Cheng Zhang
+
+3 March 1986
+
+4 pages
+
+Paper in which KPZ model was proposed
+
+Referred in: [[https://github.com/prathyvsh/toe-atlas/#history][Universality/History]]
 
 - Scale invariance of the network
 
