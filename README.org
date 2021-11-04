@@ -144,7 +144,15 @@ Already implicit in van der Waals equation and Landau Theory
 
 Wigner hypothesized that all complex correlated systems will exhibit such universality
 
-An interesting thread is how the [[https://github.com/prathyvsh/toe-atlas/#a-two-dimensional-growth-process][Eden model of bacterial growth]] identified by Murray Eden in 1961 was studied by Mehran Kardar, Giorgio Parisi, and Yi-Cheng Zhang in 1981. This model known as the KPZ equation was found to accurately describe how irregular fluctations of the growth of bacteria population. This KPZ equation is conjectured to be the field theory of many surface growth models such as the Eden model, ballistic deposition, and SOS model. The SOS model case has been proved in the [[https://github.com/prathyvsh/toe-atlas/#stochastic-burgers-and-kpz-equations-from-particle-systems][Stochastic Burgers]] paper.
+An interesting thread is how the [[https://github.com/prathyvsh/toe-atlas/#a-two-dimensional-growth-process][Eden model of bacterial growth]] identified by Murray Eden in 1961 was studied by Mehran Kardar, Giorgio Parisi, and Yi-Cheng Zhang in 1981. This model known as the [[https://github.com/prathyvsh/toe-atlas/#dynamic-scaling-of-growing-interfaces][KPZ equation]] was found to accurately describe irregular fluctations of the growth of bacteria population. This KPZ equation is conjectured to be the field theory of many surface growth models such as the Eden model, ballistic deposition, and restricted solid on solid , directed polymers, and polynuclear growth model. The SOS model case has been proved in the [[https://github.com/prathyvsh/toe-atlas/#stochastic-burgers-and-kpz-equations-from-particle-systems][Stochastic Burgers]] paper.
+
+It also further turned out that the distribution of largest eigenvalue of an N × N matrix with entries being random numbers taken from a Gaussian distribution turned out to have a shape described by so called Tracy-Widom distribution.
+
+This distribution is also found in the Ulam problem: a problem where you find out the longest increasing subsequence of permutations of a certain selection of integers. Ulam problem was raised by Stanisław Ulam in the 1960s.
+
+For example, for a sequence with N = 6: { 1, 2, 4, 3, 6, 5 } you have { 1, 2, 4, 6 } as the long subsequence. The Ulam probelm is to determine for any N, the distribution of the length of the longest increasing subsequence.
+
+Tracy-Widom was found to describe the distribution of the length of the longest increasing subsequences. By 2000s, an exact mapping was done between the Ulam problem and models of KPZ type showing their equivalence.
 
 *** Intermediate Expository Papers
 
@@ -243,6 +251,25 @@ Mehran Kardar, Giorgio Parisi, Yi-Cheng Zhang
 Paper in which KPZ model was proposed
 
 Referred in: [[https://github.com/prathyvsh/toe-atlas/#history][Universality/History]]
+
+**** [[https://www.ams.org/journals/jams/1999-12-04/S0894-0347-99-00307-0/S0894-0347-99-00307-0.pdf][On the distribution of the length of the longest increasing subsequence of random permutations]]
+
+Jinho Baik, Percy Deift, Kurt Johansson
+
+24 June 1999
+
+40 pages
+
+**** [[https://doi.org/10.1103/physrevlett.62.2289][Growth in a restricted solid-on-solid model]]
+
+Jin Min Kim, J. M. Kosterlitz
+
+8 May 1989
+
+- [[http://dutiosc.twi.tudelft.nl/~pietg/notePG.pdf][Ulam’s Problem and Hammersley’s Process]]
+Piet Groeneboom
+23 October 2000
+TODO: There seems to be a link between Ulam’s problem and Hammersley’s process. Investigate these and find out what connection exists between these ideas and Universality.
 
 - Scale invariance of the network
 
