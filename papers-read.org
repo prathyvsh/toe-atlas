@@ -1,0 +1,201 @@
+* Papers Read
+
+* Index
+
+* To Read
+
+
+* Birds and Frogs
+Freeman Dyson
+
+
+Birds: Survey broad vistas of mathematics out to the far horizon. They delight in concepts that unify our thinking and bring together diverse problems from different parts of the landscape.
+
+Frogs: See only the flowers that grow nearby. They delight in the details of particular objects, and they solve problems one at a time.
+
+#+BEGIN_QUOTE
+Mathematics is rich and beautiful because birds give it broad visions and frogs give it intricate details. Mathematics is both great art and important sicence, because it combines generality of concepts with depth of structures.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+It is stupid to claim that birds are better than frogs because they see farther, or that frogs are better than birds because they see deper. The world of mathematics is both broad and deep, and we need birds and frogs working together to explore it.
+#+END_QUOTE
+
+Descartes is said to be a bird while bacon a frog. 
+
+Bacon: “All depends on keeping the eye steadily fixed on the facts of nature.”
+
+Descartes: “I think, therefore I am.”
+
+#+BEGIN_QUOTE
+According to Bacon, scientists should travel over the earth collecting facts, until the accumulated facts reveal how Nature works. The scientists will then induce from facts he laws that Nature obeys. According to Descartes, sicentists should stay at home and deduce the laws of Nature by pure thought. In order to deduce the laws correctly, the scientists will need only the rules of logic and knowledge of the existence of God.
+#+END_QUOTE
+
+I am not sure how I agree with the division here. Descartes did many experiments that made his hands dirty and was only interested in mathematical style deductions insofar as it brought practical benefits. What Dyson has done here seems like a pop-culture caricature.
+
+Baconian empiricism / Cartesian dogmatism seem like extreme versions much abstracted away from what either people proposed as Baconian himself made remarks against a purely empiricist stance where you won’t be able to generalize beyond experimental results.
+
+Baconians: Faraday, Darwin, Ruthereford, Marie Curie
+
+Cartesian: Pascal, Laplace and Poincaré, Newton
+
+Bird: Hilbert, Bourbaki, Weyl, Descartes, Yang, Manin, Gödel, Ed Witten, Juan Maldacena
+Frog: Besicovitch, Bacon, Von Neumann
+
+#+BEGIN_QUOTE
+Hilbert’s 23 problems were addressed to the frogs who would solve them one at a time.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Bourbaki group changed the style of mathematics for the next fifty years, imposing a logical coherence that did not exist before, and moving the emphasis from concrete exmaples to abstract generalities.
+#+END_QUOTE
+
+Bourbaki program is said to be an extreme expression of the Cartesian style which narrowed the scope of mathematics by excluding the beautiful flowers that Baconian travelers might collect by the wayside.
+
+Jokes of nature: Shrödinger putting complex numbers in the wave equation, Precise linearity of quatnum mechanics, the fact that the possible states of any physical object form a linear space, Quasicystals, Similarity in between quasi-crystals and the zeros of the Riemann Zeta function.
+
+#+BEGIN_QUOTE
+
+Before quantum mechanics was invented, classical physics was always nonlinear, and linear models were only approximately valid. After quantum mechanics, nature itself suddenly became linear.
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+
+During the 19th century Sophus Lie developed his elaborate theory of continuous groups, intended to clarify the behaviour of classical dynamical systems. Lie groups were then of little interest either to mathematicians or to physicists. The nonlinear theory of Lie groups was too complicated for the mathematicians and too obscure for the physicists. Lie died a disappointed man. And then, fifty years later, it turned out that nature was precisely linear, and the theory of linear representations of Lie algebas was the natural language of particle physics. Lie groups and Lie algebras were reborn as one of the central themes of twentieth century mathematics.
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+
+In the nineteenth century the study of crystals led to a complete enumeration of possible discrete symmetry groups in Euclidean space. Theorems were proved, establishig the fact that in three-dimensional space discrete symmetry groups could contain only rotations of order three, four, or six. Then in 1984 quasi-crystals were discovered, real solid objects growing out of liquid metal alloys, showing the symmetry of the icosahedral group, which includes five-fold roratitons. Meanwhile, the mathematician Roger Penrose discovered the Penrose tilings of the plane. These are arrangements of parallelograms that cover a plane with pentagonal long-range order. The alloy quasi-crystals are three-dimensional analogues of the two-dimensional Penrose tilings. After these discoveries, mathematicians had to enlarge the theory of crystallographic groups to include quasi-crystals.
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+
+Quasi-crystals can exist in spaces of one, two, or three dimensions. […] A quasi-crystal is a distribution of discretee point masses whos Fourier trnsform is a distribution of discrete point frequencies. […] [A] quasi-crystal is a pure point distribution that has a pure point spectrum. This definition includes as a special case the ordinary crystals, which are periodic distribution with periodic spectra.
+
+#+END_QUOTE
+
+1 dimensional quasi crystals are more numerous than 2 dimensional quasicrystals which are more numerous than 3 dimensional quasicrystals in which all of them are associated with the icosahedral group.
+
+
+1D quasi-crystals have a far richer structure since they are not tied to any rotational symmetries. It is known that a unique quasi-crystal exists corresponding to every Pisot-Vijayaraghavan number or PV number.
+
+#+BEGIN_QUOTE
+
+A PV number is a real algebraic integer, a root of a polynomial equation with integer coefficients, such that all the other roots have absolute vaule less than one. The set of all PV numbers is infinite and has a remarkable topological structure. The set of all one-dimensional quasi-crystals has a structure at least as rich as the set of all PV numbers and probably much richer. We do not know for sure, but it is likely that a huge universe of one-dimensional quasi-crystals not associated with PV numbers is waiting to be discovered.
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+
+If the Riemann hypothesis is true, then the zeroes of the zeta-function form a one-dimensional quasi-crystal according to the definition. They constitute a distribution of point masses on a straight line, and their Fourier tranform is ilkewise a distribution of point masses, one at each of the logarithms of ordinary prime numbers and prime-power numbers.
+
+#+END_QUOTE
+
+Dyson proposes a method of classifying the 1D quasi-crystals which will help us locate the specimen that matches up exactly with the Riemannian zeta function, thus allowing us to solve it.
+
+Besicovitch solved the Kakeya problem.
+
+TODO: Add image of the three-cusped hypocycloid here.
+
+Besicovitch in his “On the fundamental geometric properties of linearly measurable plane set of points” proved that every linearly measurable set in the plane can be decomposed into a regular and an irregular component, that the regular component has a tangent almost everywhere, and the irregular component has a projection of measure zero onto almost all directions.
+
+#+BEGIN_QUOTE
+
+Weyl’s great contribution to the quatnum tehory of radiation was his invention of gauge fields. The idea of gauge fields had a curious history. Weyl invented them in 1918 as classical fields in his unified theory of general relativity and electromagnetism. He called them “gauge fields” because they were concerned with the non-integrability of measurements of length. His unified theory was promptly and publicly rejected by Einstein. After this thunderbolt from on high, Weyl did not abandon his theory but moved on to other things. The theory had no experimental consequences that could be tested. Then in 1929, after quantum mechanics had been invented by other,s Weyl realized that his gauge fields fitted far better into the quatnum world than they did into the classical world. All that he needed to do, to change a classical gauge into a quantum gauge, was to change real numbers into complex numbers. In quantum mechanics, every quantum of electric charge carries with it a complex wave function with a phase, and the gauge field is concerned with the non-integrability of measurements of phase. The gauge field could then be precisely identified with the electromagnetic potential, and the law of conservation of charge became a consequence of the local phase invariance of the theory.
+#+END_QUOTE
+
+Yang and his student Robert Mills discovered the Yang-Mills theory of non-Abelian gauge fields, an extension of Weyl’s idea of a gauge field.
+
+#+BEGIN_QUOTE
+
+The Yang-Mills theory had a triplet of gauge fields which did not commute. They satisfied the commutation rules of the three components of a quantum mechanical spin, which are generators of the simplest non-Abelian Lie Algebra A_2. The theory was later generalized so that the gauge fields could be generators of any finite-dimensional Lie algebra. With this generalization, the Yang-Mills gauge field theory provided the framework for a model of all the known particles and interacitons, a model that is now known as the Standard Model of particle physics. Yang put the finish touch to it by showing that Einstein’s theory of gravitation fits into the same framework, with the Christoffel three-index symbol taking the role of gauge field.
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+
+In his speech [for celebration of Weyl’s hundredth birthday], Yang quoted the remark of Weyl: [“The strongest argument for my theory seemed to be this, that gauge invariance was related to conservation of electric charge in the same way as coordinate invariance was related to conservation of energy and momentum.”] as evidence of Weyl’s devotion to the idea of gauge invariance as a unifying principle for physics. Yang then went on, “Symmetry, Lie groups, and gauge invariance are now recognized, through theoretical and experimental developments, to play essential roles in determining the basic forces of the physical universe. I have called this the principle that symmetry dictates interaction.”
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+This idea, that symmetry dictates interaction, is Yang’s generalization of Weyl’s remark. Weyl observed that gauge invariance is intimately connected with physical conservation laws. Weyl could not go further than this, because he knew only the gauge invariance of commuting Abelian fields. Yang made the connection much stronger by introducing non-Abelian gauge fields. With non-Abelian gauge fields generatig nontrivial Lie algebras, the possible forms of interaction between fields become unique, so that symmetry dictates interaction. This idea is Yangś greatest contribution to physics. It is the contribution of a bird, flying high over the rain forest of little problems in which most of us spend our lives.
+
+#+END_QUOTE
+
+| Fields linked        | Uniting Concept     | Inventor/Discoverer |
+|----------------------+---------------------+---------------------|
+| Algebra ←→ Geometry  | Coordinates         | Descartes           |
+| Geometry ←→ Dynamics | Fluxions            | Newton              |
+| Logic ←→ Algebra     | Symbolic Algebra    | Boole               |
+| Geometry ←→ Analysis | Riemannian Surfaces | Riemann             |
+
+
+#+BEGIN_QUOTE
+
+Manin sees the future of mathematics as an exploration of metaphors taht are already visible but not yet understood. The deepest such metaphor is the similarity in structure between number theory and physics. In both fields he sees tantalizing glimpses of parallel concepts, symmetries linking the continous ith the discrete. He looks forward to a unification which he calls the quantization of mathematics.
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Von Neumann went on from the foundations of mathematics to the foundations of quantum mechanics. To give quantum mechanics a firm mathematical foundation, he created a magnificient theory of rings of operators. Every observable quantity is represented by a linear operator, and teh peculiarities of quantum behaviour are faithfully represented by the algebra of operators. Just as Newton invented calculus to describe classical dynamics, von Neumann invented rings of operators to describe quantum dynamics.
+
+#+END_QUOTE
+
+The story of how von Neumann made use of computers for meteorology and his hopes of achieving weather control by perturbing unstable weather patterns and how it failed is described.
+
+#+BEGIN_QUOTE
+
+Edward Lorenz discovered in 1963 the solutions of the equations of meteorology are often chaotic. That was six years after von Neumann died. Lorenz was a meteorologist and is generally regarded as the discoverer of chaos. He discovered the phenomena of chaos in the meteorologcal context and gave them their modern names. But in fact, [Dyson] had heard the mathematician Mary Cartwright, who died in 1998 at the age of 97, describe the same phenomena in a lecture in Cambridge in 1943, twenty years before Lorenz discovered them. She called the phenomena by different names, but tehy were the same phenomena. She discovered them in the solutions of the van der Pol equation which describe the oscillations of a nonlinear amplifier.
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+
+The van der Pol equation was important in World War II because nonlinear amplifiers fed power to the transmitters in early radar systems. THe transmitters behaved erratically, and the Air Force blamed the manufacturers for making defective amplifiers. Mary Cartwright was saked to look into the problem. She showed that the manufacturers were not to blame. She showed that the van der Pol equation was to blame. The solutions of the van der Pol equation have precisely the chaotic behaviour that the Air Force was complaining about.
+
+#+END_QUOTE
+
+Dyson though he had heard from Mary Cartwright 7 years before hearing von Neumann talk about weather control, was not able to make the connection between the erratic behaviour of the van der Pol equation possibly having something to do with meteorology.
+
+#+BEGIN_QUOTE
+
+The probelm of weak cahos is still unsoved [sic]. The problem is to understand why chaotic motions often remain bounded and do not cause any violent instability. A good example of weak chaos is the orbital motions of the planets and satellites in the solar system. It was discovered only recently that these motions are chaotic. This was a surprising discovery, upsetting the traditional picture of the solar system as the prime example of orderly stable motion. The mathematician Laplace 200 years ago thought he had proved that the solar system is stable. It now turns out that Laplace was wrong. Accurate numerical integrations of the orbits show clearly that neighbouring orbits diverge expnonentially. It seems that chaos is almost universal in the world of classical dynamics.
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+
+Chaotic behaviour was never suspected in the solar system before accurate long-term integrations were done, because the chaos is weak. Weak chaos means that neighboring trajectories diverge exponentially but never diverge far. The divergence begins with exponential growth but afterwards remains bounded. Because the chaos of the planetary motions is weak, the solar system can survive for four billion years. Although the motions are chaotic, the planets never wander far from their customary places, and the system as a whole does not fly apart. In spite of the prevelance of chaos, the Laplacian view of the solar system as a perfect piece of clockwork is not far from the truth.
+
+#+END_QUOTE
+
+The same phenomena of weak chaos is in the domain of meteorology. Although weather is chaotic, there are certain ranges that are maintained in certain portions of the world such as in New Jersey where temperature never rises to 45 degree Celcius or fall to -30. There is no conservation low of physics that forbids such a drastic jump.
+
+#+BEGIN_QUOTE
+
+The weakness of chaos has been essential to the long-term survival of life on this planet. Weak chaos gives us a challeging variety of weather while proecting us from fluctuations so severe as to endanger our existence. Chaos remains mercifully weak for reasons that we do not understand.
+
+
+#+END_QUOTE
+
+Dyson proposes the problem of weak chaos as another one that is worth solving.
+
+Dyson says there are not much rigorous theorems in the field of chaos. He highlight the theorem proved by Tien-Yien Li and Jim Yorke in the paper “Period Three Implies Chaos” as an immortal gem in the literature of mathematics.
+
+#+BEGIN_QUOTE
+Their theorem concerns nonlinear maps of an interval onto itself. The successive positions of a point when the mapping is repeated can be considered as the orbit of a classical particle. An orbit has period N if the point returns to its original position after N mapping.s An orbit is defined to be chaotic, in this context, if it diverges from all period orbits. The theorem says that if a single orbit with period three exists, then chaotic orbits also exist.
+
+#+END_QUOTE
+
+Some sociological aspects of string theory which makes it not have economically demanding empirical tests and thus providing certain kinds of incentives for hiring theoreticians are outlined by Dyson.
+
+The article draws to a close by drawing upon Yuri Manin’s eclectic work ranging on many elements of human culture. Dyson tells that in Russia, the intelligentsia has a mix of scientists, poets, artists, and musicians belonging to a single community. Dyson singles out the work of Jung on archetypes and how Yuri Manin discusses the archetype of dead city as recurrent throughout human literature. Dyson hopes to counteract such insanities of the collective unconscious by creating a conscious culture of sanity. There does seem to be a particular kind of discontinuity between the mathematical themes in the earlier parts and how the article was drawn to a close without giving some supporting structures or course of action for the establishment of the collective consciousness of sanity.
+
+** Summary
+
+The article on the whole is a beautiful cherry picked essay which portrays many of the open problems and approaches to mathematics. It is a recommended read from my end for someone new to mathematics as it distills years of expertise of Dyson derived from the great work done and interactions he has made with some of the greatest minds in mathematics and sciences.
