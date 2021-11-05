@@ -144,7 +144,7 @@ Already implicit in van der Waals equation and Landau Theory
 
 Wigner hypothesized that all complex correlated systems will exhibit such universality
 
-An interesting thread is how the [[https://github.com/prathyvsh/toe-atlas/#a-two-dimensional-growth-process][Eden model of bacterial growth]] identified by Murray Eden in 1961 was studied by Mehran Kardar, Giorgio Parisi, and Yi-Cheng Zhang in 1981. This model known as the [[https://github.com/prathyvsh/toe-atlas/#dynamic-scaling-of-growing-interfaces][KPZ equation]] was found to accurately describe irregular fluctations of the growth of bacteria population. This KPZ equation is conjectured to be the field theory of many surface growth models such as the Eden model, ballistic deposition, and restricted solid on solid , directed polymers, and polynuclear growth model. The SOS model case has been proved in the [[https://github.com/prathyvsh/toe-atlas/#stochastic-burgers-and-kpz-equations-from-particle-systems][Stochastic Burgers]] paper.
+An interesting thread is how the [[https://github.com/prathyvsh/toe-atlas/#a-two-dimensional-growth-process][Eden model of bacterial growth]] identified by Murray Eden in 1961 was studied by Mehran Kardar, Giorgio Parisi, and Yi-Cheng Zhang in 1981. This model known as the [[https://github.com/prathyvsh/toe-atlas/#dynamic-scaling-of-growing-interfaces][KPZ equation]] was found to accurately describe irregular fluctations of the growth of bacteria population. This KPZ equation is conjectured to be the field theory of many surface growth models such as the Eden model, [[https://github.com/prathyvsh/toe-atlas/#ballistic-deposition][ballistic deposition]], and [[https://github.com/prathyvsh/toe-atlas/#growth-in-a-restricted-solid-on-solid-model][restricted solid on solid]], directed polymers, and [[https://github.com/prathyvsh/toe-atlas/#polynuclear-growth][polynuclear growth model]]. The SOS model case has been proved in the [[https://github.com/prathyvsh/toe-atlas/#stochastic-burgers-and-kpz-equations-from-particle-systems][Stochastic Burgers]] paper.
 
 It also further turned out that the distribution of largest eigenvalue of an N × N matrix with entries being random numbers taken from a Gaussian distribution turned out to have a shape described by so called Tracy-Widom distribution.
 
@@ -152,7 +152,9 @@ This distribution is also found in the Ulam problem: a problem where you find ou
 
 For example, for a sequence with N = 6: { 1, 2, 4, 3, 6, 5 } you have { 1, 2, 4, 6 } as the long subsequence. The Ulam probelm is to determine for any N, the distribution of the length of the longest increasing subsequence.
 
-Tracy-Widom was found to describe the distribution of the length of the longest increasing subsequences. By 2000s, an exact mapping was done between the Ulam problem and models of KPZ type showing their equivalence.
+Tracy-Widom was found to describe the distribution of the length of the longest increasing subsequences. By 2000s, an exact mapping was done between the Ulam problem and models of KPZ type showing their equivalence. This was found by [[https://github.com/prathyvsh/toe-atlas/#exact-scaling-functions-for-one-dimensional-stationary-kpz-growth][Prähofer and Spohn]], [[https://github.com/prathyvsh/toe-atlas/#shape-fluctations-and-random-matrices][Johansson]], and [[https://github.com/prathyvsh/toe-atlas/#limit-tehorems-for-height-fluctuations-in-a-class-of-discrete-space-and-time-growth-models][Gravner, Tracy, and Widom]].
+
+There also seems to be a connection to a third-order phase transition connected with these problems and it is conjectured to closely linked to Gross-Witten-Wadia phase transition known from lattice gauge theories of quantum chromodynamics.
 
 *** Intermediate Expository Papers
 
@@ -271,6 +273,75 @@ Piet Groeneboom
 23 October 2000
 TODO: There seems to be a link between Ulam’s problem and Hammersley’s process. Investigate these and find out what connection exists between these ideas and Universality.
 
+**** [[https://arxiv.org/pdf/cond-mat/0212519.pdf][Exact scaling functions for one-dimensional stationary KPZ growth]]
+Michael Prähofer, Herbert Spohn
+
+**** [[https://arxiv.org/abs/math/9903134][Shape Fluctuations nd random Matrices]]
+
+Kurt Johansson
+
+23 March 1999
+
+51 pages
+
+**** [[https://arxiv.org/pdf/math/0005133][Limit theorems for height fluctuations in a class of discrete space and time]]
+
+Janko Gravner, Craig A. Tracy, Harold Widom
+
+October 25, 2000
+
+39 pages
+
+**** [[https://arxiv.org/pdf/cond-mat/0307189.pdf][An Anisotropic Ballistic Deposition Model with Links to the Ulam Problem and the Tracy-Widom Distribution]]
+
+Satya M. Majumdar, Sergei Nechaev
+
+18 July 2003
+
+**** Ballistic deposition
+
+- [[https://www.sciencedirect.com/science/article/abs/pii/0095852259900418][A numerical approach to the problem of sediment volume]]
+Marjorie J. Vold
+April 1959
+
+- [[https://journals.aps.org/pra/abstract/10.1103/PhysRevA.34.5091][Ballistic deposition on surfaces]]
+
+Paul Meakin, P. Ramanlal, L. M. Sander, R. C. Ballistic
+
+1 December 1986
+
+- [[https://journals.aps.org/pra/abstract/10.1103/PhysRevA.38.4271][Universality class for deterministic surface growth]]
+
+J. Krug, H. Spohn
+
+1 October 1988
+
+**** [[https://www.sciencedirect.com/science/article/abs/pii/037015739400087J][Kinetic roughening phenomena, stochastic growth, directed polymers and all that. Aspects of multidisciplinary statistical mechanics]]
+
+Timothy Halpin-Healy, Yi-Cheng Zhang
+
+March 1995
+
+**** Polynuclear Growth
+
+- [[https://www.sciencedirect.com/science/article/pii/0022024874901006][Nucleation-controlled growth on a one-dimensional growth of finite length]]
+
+F. C. Frank
+
+May 1974
+
+- [[https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.62.2571][Anomalosus roughening in growth process]]
+
+János Kertész, Dietrich E. Wolf
+
+29 May 1989
+
+- [[https://iopscience.iop.org/article/10.1209/0295-5075/8/3/003][Anomalous Flucuations in the Driven and Damped Sine-Gordon Chain]]
+
+J. Krug, H, Spohn
+
+1989
+
 - Scale invariance of the network
 
 *** Books
@@ -283,6 +354,16 @@ TODO: There seems to be a link between Ulam’s problem and Hammersley’s proce
 - [[https://www.quantamagazine.org/the-universal-pattern-popping-up-in-math-physics-and-biology-20180823/][The Universal Pattern Popping Up in Math, Physics and Biology]]
 
 Related concepts: Renormalization, Disordered Hyperuniformity, Paradox of enrichment, Third order phase transition, KPZ equation
+
+- [[https://www.youtube.com/watch?v=1ZcinvTjG6c][Top eigenvalue of a random matrix: Tracy-Widom Distribution and the third order phase transition]]
+
+Satya M. Majumdar
+
+20 June 2015
+
+38:09 minutes
+
+There is a nice commentary by Mark Buchanan on a similar talk given by Majumdar here: https://www.nature.com/articles/nphys3064.pdf?origin=ppub
 
 *** Criticism
 *** [[https://sites.math.rutgers.edu/~zeilberg/Opinion49.html][Why Ubiquity is so Ubiquitous]]
