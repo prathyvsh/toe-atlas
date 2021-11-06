@@ -119,8 +119,19 @@ An advantage of studying universality phenomena is that you get to use the same 
 
 - [[https://www.quantamagazine.org/in-mysterious-pattern-math-and-nature-converge-20130205/][In Mysterious Pattern, Math and Nature Converge]]
 Natalie Wolchover (February 5, 2013)
+
 - [[https://www.quantamagazine.org/beyond-the-bell-curve-a-new-universal-law-20141015/][At the Far Ends of a New Universal Law]]
 Natalie Wolchover (October 15, 2014)
+
+- [[https://www.quantamagazine.org/hyperuniformity-found-in-birds-math-and-physics-20160712/][A Bird’s-Eye View of Nature’s Hidden Order]]
+Natalie Wolchover (July 12, 2016)
+
+#+CAPTION: Image from Quanta Magazine explaining the nature of hyperuniformity found in chicken eyes
+[[./img/hyperuniformity-in-chicken-eyes.jpg]]
+
+How 2-dimensional hyperuniformity was found inside the eyes of chicken. What happens in chicken’s eyes is that you get a distribution of five types of cones and these are trying to arrange themselves so that they are far apart from each other while leaving out room for the other cells to do so too. In this sense, they are interdependent and interact with each other so as to obtain an optimal packing which results in the universality pattern observed in other inorganic and physical systems.
+
+It mentions an idea called maximally random jammed packing where this phenomena repeats which happens in the case of marbles. These are classified as non-equilibrium systems along with emulsions, colloids, ensembles of cold atoms. The other class is the equilibrium class which contains the avian color cones, distribution of eigenvalues of random matrices, zeroes of the Riemann zeta function, and quasicrystals.
 
 *** Intermediary Expositions
 
@@ -135,6 +146,12 @@ Paper by Alexander Franklin explaining Universality from a reductive angle. It t
 Another paper by Alexander Franklin with the same thrust.
 
 TODO: May be add these two papers to the section Emergence vs. Reduction?
+
+- [[https://arxiv.org/abs/cond-mat/0701193][Random Matrices, the Ulam Problem, Directed Polymergs & Growth Models, and Sequence Matching]]
+Satya N. Majumdar (2007)
+39 pages
+
+Paper that unifies the study of different fields using the Tracy-Widom distribution that describes the asymptotic probability distribution of the largest eigenvalue of a random matrix
 
 *** History
 
@@ -155,14 +172,6 @@ For example, for a sequence with N = 6: { 1, 2, 4, 3, 6, 5 } you have { 1, 2, 4,
 Tracy-Widom was found to describe the distribution of the length of the longest increasing subsequences. By 2000s, an exact mapping was done between the Ulam problem and models of KPZ type showing their equivalence. This was found by [[https://github.com/prathyvsh/toe-atlas/#exact-scaling-functions-for-one-dimensional-stationary-kpz-growth][Prähofer and Spohn]], [[https://github.com/prathyvsh/toe-atlas/#shape-fluctations-and-random-matrices][Johansson]], and [[https://github.com/prathyvsh/toe-atlas/#limit-tehorems-for-height-fluctuations-in-a-class-of-discrete-space-and-time-growth-models][Gravner, Tracy, and Widom]].
 
 There also seems to be a connection to a third-order phase transition connected with these problems and it is conjectured to closely linked to Gross-Witten-Wadia phase transition known from lattice gauge theories of quantum chromodynamics.
-
-*** Intermediate Expository Papers
-
-- [[https://arxiv.org/abs/cond-mat/0701193][Random Matrices, the Ulam Problem, Directed Polymergs & Growth Models, and Sequence Matching]]
-Satya N. Majumdar (2007)
-39 pages
-
-Paper that unifies the study of different fields using the Tracy-Widom distribution that describes the asymptotic probability distribution of the largest eigenvalue of a random matrix
 
 *** Survey Papers
 
@@ -219,6 +228,16 @@ Yang Jiao, Timothy Lau, Haralampos Hatzikirou,  Michael Meyer-Hermann, Joseph C.
 Joost H. Weijs, Raphaël Jeanneret, Rémi Dreyfus, Denis Bartolo
 17 April 2015
 5 pages
+
+- [[https://www.researchgate.net/publication/242100748_Glasslike_universe_Real-space_correlation_properties_of_standard_cosmological_models][Glass-like universe: Real-space correlation properties of standard cosmological models]]
+Andrea Gabrielli, Michael Joyce, and Francesco Sylos Labini
+11 April 2002
+
+This paper contains a tripartite division between three universality classes.
+
+- [[https://journals.aps.org/pre/abstract/10.1103/PhysRevE.89.022721][Av an photoreceptor patterns represent a disordered hyperuniform solution to a multiscale packing problem]]
+Yang Jiao, Timothy Lau, Haralampos Hatzikirou, Michael Meyer-Hermann, Joseph C. Corbo, Salvatore Torquato
+24 February 2014
 
 **** [[http://digitalassets.lib.berkeley.edu/math/ucb/text/math_s4_v4_article-15.pdf][A Two-Dimensional Growth Process]]
 
