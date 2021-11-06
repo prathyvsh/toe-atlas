@@ -531,7 +531,7 @@ The model says that complex systems teeters on the border of order and disorder.
 
 Related ideas in this space:
 
-Biological Systems Poised at Criticality
+- [[https://arxiv.org/abs/1012.2242][Are biological systems poised at criticality?]]
 
 ** Critical Brain Hypothesis
 
@@ -562,6 +562,8 @@ http://www.uvm.edu/pdodds/files/papers/others/2009/achlioptas2009a.pdf
 Jennifer Oullette (April 3, 2014)
 
 Details the approach of Bak and the progress that has been made on empirically verifying the model in neuroscience in the work of Dante Chialvo, Dietmar Plenz, John Beggs, and Raissa D’Souza.
+
+- [[http://philsci-archive.pitt.edu/11217/][Self Organized-Criticality: What it is and what it isn’t]]
 
 ** Papers
 
