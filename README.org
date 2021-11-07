@@ -58,6 +58,7 @@ Books
 - Autoencoder
 - Block-Spin Renormalization
 - Boltzmann Machines
+- Bragg’s Peak
 - Causal Sets
 - Cellular Automata
 - Critical Opalescence
@@ -81,6 +82,8 @@ Books
 - Kolmogorov Complexity
 - Krohn-Rhodes Decomposition
 - Landau Theory
+- Limit Periodicity
+- Order Metric
 - Multiple Realizability
 - Petri Nets
 - Phase Transition
@@ -143,7 +146,33 @@ Morgan Kelly (January 19 2017)
 <figcaption>Photo by Danita Delimont Creative / Alamy Stock</figcaption>
 #+END_HTML
 
+TODO: Link to the paper in the bottom
+
 On how small scale interaction between plants competing for resources at the small scale and territorial war between termites that spread their nests apart results in a disordered hyperuniform distribution called fairy circles. These two mechanisms of territorial warfare between termite colonies and plant self-organization interact to generate this pattern.
+
+- [[https://www.quantamagazine.org/a-chemist-shines-light-on-a-surprising-prime-number-pattern-20180514/][A Chemist Shines Light on a Surprising Prime Number Pattern]]
+
+Discusses the work of Torquato and team on attempting to find diffraction pattern of prime numbers and comparing it to diffraction pattern of quasicrystals.
+
+Bragg peaks are produced when diffracting light off of crystals and quasicrystals.
+
+This is how diffraction pattern of an inorganic crystal, a tantalum oxide looks:
+
+#+CAPTION: Diffraction pattern of a tantalum oxide
+[[./img/inorganic-crystal-diffraction-pattern.jpg]]
+
+and this is how diffraction pattern of a quasicrystal looks like:
+
+#+CAPTION: Diffraction pattern of an icosahedral Zn-Mg-Ho quasicrystal
+[[./img/quasicrystal-diffraction-pattern.jpg]]
+
+Torquato and team attempted to find the diffraction pattern of primes in the so called “Goldilocks Zone” to see how the pattern looks like and they found out that it can be described as effectively limit periodic. The distance between the peaks of fractions are fractional in prime number case as opposed to the quasicrystal case where it is irrational.
+
+A link with Taylor-Socolar tiling is also mentioned in the article which exhibits limit periodicity: the system has periodic spacings nested in an infinite hierarchy; it contains parts of patterns of itself that repeat at large intervals. The effective limit periodicity of prime numbers is compared with this limit periodicity of the Taylor-Socolar tiling.
+
+TODO: Find out the difference between effective limit periodicity and limit periodicity
+
+Towards the end of the article, it notes Andrew Granville claiming that results Torquato and team have arrived at are just reframings of already known results.
 
 *** Intermediary Expositions
 
@@ -328,6 +357,25 @@ October 25, 2000
 Satya M. Majumdar, Sergei Nechaev
 
 18 July 2003
+
+**** Prime Numbers and QuasiCrystals
+
+- [[https://arxiv.org/abs/1801.01541][The structure factor of primes]]
+Ge Zhang, Fausto Martelli, Salvatore Torquato
+
+14 February 2018
+
+19 pages
+
+- [[https://arxiv.org/abs/1802.10498][Uncovering Multiscale Order in the Prime Number via Scattering]]
+Salvatore Torquato, Ge Zhang, Matthew de Courcy-Ireland
+28 February 2018
+9 pages
+
+- [[https://arxiv.org/abs/1804.06279][Hidden Multiscale Order in the Primes]]
+Salvatore Torquato, Ge Zhang, Matthew de Courcy-Ireland
+16 June 2018
+34 pages
 
 **** Ballistic deposition
 
