@@ -792,6 +792,13 @@ Miranda C. N. Cheng, Vassilis Anagiannis, Maurice Weiler, Pim de Haan, Taco S. C
 - [[https://arxiv.org/abs/2104.13478][Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges]]
 Michael M. Bronstein, Joan Bruna, Taco Cohen, Petar Veličković
 
+Noether’s Learning Dynamics: Role of Symmetry Breaking in Neural Networks
+
+- [[https://papers.nips.cc/paper/2021/file/d76d8deea9c19cc9aaf2237d2bf2f785-Paper.pdf][Noether’s Learning Dynamics: Role of Symmetry Breaking in Neural Networks]]
+Hidenori Tanaka, Daniel Kunin (2021)
+
+Tweet thread here: https://twitter.com/Hidenori8Tanaka/status/1467770064414085121
+
 *** Galois Theory
 
 Connection between Galois Theory in number theory, complex analysis, and quantum field theory has been noticed. In particular, the idea of renormalization and motives has been discovered by Alain Connes and Kreimer.
