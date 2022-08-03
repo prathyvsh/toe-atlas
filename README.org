@@ -37,6 +37,7 @@ Books
 *** Tracy-Widom Distribution
 
 *** Self Organized Criticality
+- Stigmergy
 
 ** Topics
 
