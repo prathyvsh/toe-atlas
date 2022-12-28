@@ -950,7 +950,10 @@ Carver Mead
 ** Promise Theory
 Mark Burgess
 
-** Intelligence without Reason
+** [[https://people.csail.mit.edu/brooks/papers/AIM-1293.pdf][Intelligence without Reason (1991)]]
+Rodney Brookes
+
+** [[https://arxiv.org/abs/1706.03762][Attention is All You Need]]
 
 ** Katzchaneev
 Intuitionism: We don't look at the world and ask what are it's laws, we look at the way we look at the world and ask what are the laws by which we abstract.
