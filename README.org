@@ -931,6 +931,12 @@ Gödel / Hofstadter
 
 ** Ben Goertzel
 
+** David Krakauer
+
+*** [[https://santafe.edu/downloadpages/emergent-engineering-krakauer-2019][Emergent Engineering: Reframing the Grand Challenge for the 21st Century]]
+*** [[https://vimeo.com/533695288][Adapting for Complexity]]
+*** [[][]]
+
 ** Constructor Theory
 
 ** Gisin's work
